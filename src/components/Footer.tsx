@@ -8,25 +8,25 @@ function Footer() {
 
     return (
         <footer>
-            <div className="text-md font-medium flex flex-col justify-center items-center bg-white pt-3">
+            <div className="text-md font-medium flex flex-col justify-center items-center bg-white pt-3 h-auto">
                 <ul className="flex flex-wrap -mb-px">
                     <li className="me-2">
-                        <motion.a whileHover={{ scale: 1.4 }} href="mailto:nbahemia@outlook.com" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-1g">
+                        <motion.a whileHover={{ scale: 1.4 }} href="mailto:nbahemia@outlook.com" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg">
                             <img src={Mail_Icon} className="h-10 w-10"></img>
                         </motion.a>
                     </li>
                     <li className="me-2">
-                        <motion.a whileHover={{ scale: 1.4 }} href="https://github.com/nbahemia" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-1g">
+                        <motion.a whileHover={{ scale: 1.4 }} href="https://github.com/nbahemia" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg">
                             <img src={GitHub_Logo} className="h-10 w-10"></img>
                         </motion.a>
                     </li>
                     <li className="me-2">
-                        <motion.a whileHover={{ scale: 1.4 }} href="https://www.linkedin.com/in/naeem-bahemia" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-1g">
+                        <motion.a whileHover={{ scale: 1.4 }} href="https://www.linkedin.com/in/naeem-bahemia" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg">
                             <img src={LinkedIn_Logo} className="h-10 w-10"></img>
                         </motion.a>
                     </li>
                     <li className="me-2">
-                        <motion.a whileHover={{ scale: 1.4 }} href="https://www.instagram.com/naeembahemia/" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-1g">
+                        <motion.a whileHover={{ scale: 1.4 }} href="https://www.instagram.com/naeembahemia/" target="_blank" className="inline-block p-4 border-b-2 border-transparent rounded-t-lg">
                             <img src={Instagram_Logo} className="h-10 w-10"></img>
                         </motion.a>
                     </li>

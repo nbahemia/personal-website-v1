@@ -8,19 +8,21 @@ import Tabs from './components/Top_Tabs';
 function App() {
 
   return (
-    <div className='bg-[#143D60]'>
-      <div>
-        <Tabs/>
-      </div>
-      <div className=" border-b border-gray-20">
-        <AboutPage />
-      </div>
-      <div className = "border-b border-gray-20 pt-10">
-        <Project_Display/>
-      </div>
-      <div className=''>
-        <Footer/>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <div className='bg-[#143D60]'>
+          <div>
+            <Tabs />
+          </div>
+          <div className=" border-b border-gray-20">
+            <AboutPage />
+          </div>
+          <div className="border-b border-gray-20 pt-10">
+            <Project_Display />
+          </div>  
+        </div>
+      </main>
+      <Footer />
     </div>
   )
 }
