@@ -1,4 +1,4 @@
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 
 import Resume from "../assets/NaeemBahemia_Resume.pdf"
 import Otter from "../assets/Otter_Icon.png"
