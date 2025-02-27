@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 
 import Otter from "../assets/Otter_Icon.png"
-const Resume = "/resume.pdf";
+const Resume = "/NaeemBahemia_Resume.pdf";
 function Top_Tabs() {
 
     return (
